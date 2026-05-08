@@ -4,19 +4,11 @@ Manage multiple [Codex](https://github.com/openai/codex) accounts on a single ma
 
 ## Setup
 
-1. Clone this repo to `~/.config/codex-accounts`
-
 ```bash
-git clone <repo-url> ~/.config/codex-accounts
+curl -fsSL https://raw.githubusercontent.com/byzhangkui/codex-switch/main/install.sh | sh
 ```
 
-2. Add to `~/.zshrc`
-
-```bash
-source ~/.config/codex-accounts/codex-accounts.sh
-```
-
-3. Reload shell
+Then reload shell:
 
 ```bash
 source ~/.zshrc
